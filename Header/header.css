@@ -1,0 +1,65 @@
+@font-face{
+    font-family:"Garet", "DMSerif-Text";
+    src: url(Fontes/DMSerifText-Regular.ttf),url(Fontes/Garet-Book.otf);
+    
+    }
+    
+    * {
+        margin: 0;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+    
+    
+    
+    .container-grid {
+        width: 120%;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    
+    .menu {
+        width: 700px;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    
+    .menu a {
+        font-size: 25px;
+        font-family: "Garet";
+    
+        color: black;
+        text-decoration: Underline transparent;
+        text-decoration-thickness: 1px;
+    
+        transition: text-decoration 500ms ease;
+    
+    
+    }
+    
+    .menu a:hover {
+        color: black;
+    
+        text-decoration-color:black;
+    }
+    
+    .conteudo-banner {
+        height: calc(100vh - 280px);
+        display: flex;
+        align-items: center;
+    
+    }
+    
+    .conteudo-banner p {
+        color: black;
+        text-align: center;
+        margin-top: 10px;
+    
+        font-family: "Garet";
+        font-size: 32px;
+    
+    }
+
+
+    
