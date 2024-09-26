@@ -6,6 +6,21 @@
   
   }
   
+  html {
+    scroll-behavior: smooth;
+}
+
+.container-grid {
+  width: 80vw;
+  max-width: 1400px;
+
+  /* margin: 20px - Espaçamento externo de 20px */
+  /* margin: 20px 10px - Espaçamento 20px na vertical, 10px na horizontal */
+  /* margin: 20px 10px 5px - Espaçamento 20px para cima, 10px na horizontal, 5px para baixo */
+  /* margin: 20px 10px 5px 2px - Espaçamento 20px para cima, 10px para a direita, 5px para baixo, 2px para a esquerda */
+
+  margin: 0 auto;
+}
   
   .home {
     background-color: #f4f4f4;
@@ -487,22 +502,34 @@
   }
   
   .home .encontre-a-rotina-wrapper {
-    position: absolute;
-    width: 1920px;
-    height: 1079px;
-    top: 0;
-    left: 0;
+    height: 100vh;
+
+    background-repeat: no-repeat;
+
+    background-position: 180% 40%;
+
+    position: relative;
     background-image: url(./img/free-tube-mockup-4-1.png);
     background-size: cover;
     background-position: 50% 50%;
   }
   
   .home .encontre-a-rotina {
-    position: absolute;
-    width: 573px;
-    height: 137px;
-    top: 478px;
-    left: 1074px;
+    /* display: flex;
+    justify-content: center;
+    height: 10vh;
+
+    background-repeat: no-repeat;
+
+    background-position: 10% 40%; */
+    /* height: 800px; */
+    padding: 190px  55%;
+    height: 480px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+    
   }
   
   .home .group {
