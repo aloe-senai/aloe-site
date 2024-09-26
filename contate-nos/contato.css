@@ -1,29 +1,17 @@
-@font-face {
-    font-family: "Dm Serif Text", "Garet";
-    src: url(fonts/DMSerifDisplay-Regular.ttf), url(fonts/Garet-Book.ttf);
-}
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 
 .form {
     margin: 0 auto;
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 750px;
+    height: 650px;
     justify-content: space-between;
+    
 }
 
 .form h2 {
     font-family: "Dm Serif Text";
     font-size: 45px;
-    padding: 10px;
-    margin-top: 50px;
 }
 
 .campo-email {
@@ -47,33 +35,8 @@
     border: 0.5px solid ;
     border-radius: 15px;
     text-indent: 10px;
-}
-
-.campo-senha {
-    width: 450px;
-    text-align: left;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-}
-
-.campo-senha label{
-    font-size: 16px;
-    margin-bottom: 0px;
-    font-family: "Garet";
-}
-
-.campo-senha input {
-    height: 50px;
-    font-family: "Garet";
-    color: #000;
-    border: 0.5px solid ;
-    border-radius: 15px;
-    text-indent: 10px;
     font-size: 16px;
 }
-
-
 
 .campo-nome {
     width: 450px;
@@ -85,7 +48,7 @@
 
 .campo-nome label{
     font-size: 16px;
-    margin-left: 5px;
+    margin-bottom: 0px;
     font-family: "Garet";
 }
 
@@ -99,7 +62,7 @@
     font-size: 16px;
 }
 
-.campo-sobrenome {
+.campo-descricao {
     width: 450px;
     text-align: left;
     display: flex;
@@ -107,23 +70,26 @@
     flex-direction: column;
 }
 
-.campo-sobrenome label{
+.campo-descricao label {
     font-size: 16px;
-    margin-left: 5px;
+    margin-bottom: 5px; 
     font-family: "Garet";
 }
 
-.campo-sobrenome input {
-    height: 50px;
+.campo-descricao textarea {
+    height: 100px;
     font-family: "Garet";
     color: #000;
-    border: 0.5px solid ;
+    border: 0.5px solid;
     border-radius: 15px;
-    text-indent: 10px;
+    padding: 10px;
+    resize: none; 
+    box-sizing: border-box; 
     font-size: 16px;
+    line-height: 1.5;
 }
 
-.campo-confirmação-email {
+.campo-ajudar {
     width: 450px;
     text-align: left;
     display: flex;
@@ -131,47 +97,31 @@
     flex-direction: column;
 }
 
-.campo-confirmação-email label{
+.campo-ajudar label {
     font-size: 16px;
-    margin-left: 5px;
+    margin-bottom: 5px; 
     font-family: "Garet";
 }
 
-.campo-confirmação-email input {
+.campo-ajudar select {
     height: 50px;
     font-family: "Garet";
     color: #000;
-    border: 0.5px solid ;
+    border: 0.5px solid;
     border-radius: 15px;
-    text-indent: 10px;
+    padding: 10px;
+    box-sizing: border-box; 
     font-size: 16px;
+    line-height: 1.5;
+    cursor: pointer;
+    appearance: none; 
+
+
 }
 
-.campo-confirmação-senha {
-    width: 450px;
-    text-align: left;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-}
-
-.campo-confirmação-senha label{
-    font-size: 16px;
-    margin-left: 5px;
-    font-family: "Garet";
-}
-
-.campo-confirmação-senha input {
-    height: 50px;
-    font-family: "Garet";
-    color: #000;
-    border: 0.5px solid ;
-    border-radius: 15px;
-    text-indent: 10px;
-    font-size: 16px;
-}
 .form button {
     background-color: #f8f6f6;
+    margin-top: 35px;
     width: 450px;
      height: 52px;
     font-family: "Garet";
@@ -180,33 +130,20 @@
     color: #000;
     border: 0.5px solid ;
     border-radius: 100px;
-    margin-top: 20px;
 }
 
 .form button:hover {
     background-color: #14181A;
-    transition: 500ms;
+    transition: 600ms;
     color: white;
     cursor: pointer;
 }
 
-.pergunta p {
-    color: #000087;
-font-family: "Garet";
-font-size: 15px;
-margin-top: -10px;
-}
-
-.pergunta p:hover{
-    color: #4F37FF;
-    cursor: pointer;
-    transition: 500ms;
-}
 
 #logo-aloe img{
     width: 150px;
 display: flex;
 align-items: center;
 margin: auto;
-margin-top: 60px;
+margin-top: 120px;
 }
