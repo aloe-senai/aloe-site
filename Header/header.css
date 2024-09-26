@@ -15,15 +15,63 @@
     .container-grid {
         width: 120%;
         max-width: 1200px;
-        margin: 0 auto;
+        
+    }
+
+    .logo{
+        width: 700px;
+        display: flex;
     }
     
     .menu {
         width: 700px;
         display: flex;
-        justify-content: space-between;
-        align-items: flex-start;
+        align-items: flex-end;
+        justify-content:right;
+        margin-left: 700px;
+        position: relative;
+        top: -60px;
+
+        
     }
+
+    .img{
+        width: 700px;
+        display: flex;
+        align-items: flex-end;
+        margin-left: 100px;
+        
+        
+    }
+
+
+
+    .text{
+        width: 700px;
+        display: flex;
+        justify-content: space-evenly;
+
+    }
+
+    .formulario{
+        display: flex;
+        margin-left: 50px;
+    }
+
+    .produtos{
+        display: flex;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .sobre{
+        display: flex;
+        margin-right: 50px;
+    }
+
+
+
+    
     
     .menu a {
         font-size: 25px;

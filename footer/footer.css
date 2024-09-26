@@ -1,0 +1,97 @@
+@font-face{
+    font-family:"Garet", "DMSerif-Text";
+    src: url(Fontes/DMSerifText-Regular.ttf),url(Fontes/Garet-Book.otf);
+    
+    }
+    
+    * {
+        margin: 0;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+    
+    
+    
+    .container-grid {
+        width: 120%;
+        max-width: 1200px;
+        
+    }
+    * {
+        margin: 0;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+    
+    
+    
+    .container-grid {
+        width: 120%;
+        max-width: 1200px;
+        
+    }
+
+    
+    
+    .menu {
+        width: 700px;
+        display: flex;
+        align-items: flex-end;
+        justify-content: row;
+
+
+        
+    }
+
+    .img{
+        width: 700px;
+        display: flex;
+        align-items: flex-end;
+        margin-left: 100px;
+        size: 10px;
+        
+        
+    }
+
+
+
+    .text{
+        width: 700px;
+        display: flex;
+        justify-content: space-evenly;
+
+    }
+
+    .formulario{
+        display: flex;
+        margin-left: 50px;
+    }
+
+    .produtos{
+        display: flex;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .sobre{
+        display: flex;
+        margin-right: 50px;
+    }
+
+
+
+    
+    
+    .menu a {
+        font-size: 25px;
+        font-family: "Garet";
+    
+        color: black;
+        text-decoration: Underline transparent;
+        text-decoration-thickness: 1px;
+    
+        transition: text-decoration 500ms ease;
+    
+    
+    }
+    

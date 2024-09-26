@@ -1,0 +1,207 @@
+@font-face {
+    font-family: "Dm Serif Text", "Garet";
+    src: url(fonts/DMSerifDisplay-Regular.ttf), url(fonts/Garet-Book.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.form {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 750px;
+    justify-content: space-between;
+}
+
+.form h2 {
+    font-family: "Dm Serif Text";
+    font-size: 45px;
+    padding: 10px;
+    margin-top: 50px;
+}
+
+.campo-email {
+    width: 450px;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.campo-email label{
+    font-size: 16px;
+    margin-bottom: 0px;
+    font-family: "Garet";
+}
+
+.campo-email input {
+    height: 50px;
+    font-family: "Garet";
+    color: #000;
+    border: 0.5px solid ;
+    border-radius: 15px;
+    text-indent: 10px;
+}
+
+.campo-senha {
+    width: 450px;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.campo-senha label{
+    font-size: 16px;
+    margin-bottom: 0px;
+    font-family: "Garet";
+}
+
+.campo-senha input {
+    height: 50px;
+    font-family: "Garet";
+    color: #000;
+    border: 0.5px solid ;
+    border-radius: 15px;
+    text-indent: 10px;
+}
+
+
+
+.campo-nome {
+    width: 450px;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.campo-nome label{
+    font-size: 16px;
+    margin-left: 5px;
+    font-family: "Garet";
+}
+
+.campo-nome input {
+    height: 50px;
+    font-family: "Garet";
+    color: #000;
+    border: 0.5px solid ;
+    border-radius: 15px;
+    text-indent: 10px;
+}
+
+.campo-sobrenome {
+    width: 450px;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.campo-sobrenome label{
+    font-size: 16px;
+    margin-left: 5px;
+    font-family: "Garet";
+}
+
+.campo-sobrenome input {
+    height: 50px;
+    font-family: "Garet";
+    color: #000;
+    border: 0.5px solid ;
+    border-radius: 15px;
+    text-indent: 10px;
+}
+
+.campo-confirmação-email {
+    width: 450px;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.campo-confirmação-email label{
+    font-size: 16px;
+    margin-left: 5px;
+    font-family: "Garet";
+}
+
+.campo-confirmação-email input {
+    height: 50px;
+    font-family: "Garet";
+    color: #000;
+    border: 0.5px solid ;
+    border-radius: 15px;
+    text-indent: 10px;
+}
+
+.campo-confirmação-senha {
+    width: 450px;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.campo-confirmação-senha label{
+    font-size: 16px;
+    margin-left: 5px;
+    font-family: "Garet";
+}
+
+.campo-confirmação-senha input {
+    height: 50px;
+    font-family: "Garet";
+    color: #000;
+    border: 0.5px solid ;
+    border-radius: 15px;
+    text-indent: 10px;
+}
+.form button {
+    background-color: #f8f6f6;
+    width: 450px;
+     height: 52px;
+    font-family: "Garet";
+    font-size: 20px;
+    text-align: center;
+    color: #000;
+    border: 0.5px solid ;
+    border-radius: 100px;
+    margin-top: 20px;
+}
+
+.form button:hover {
+    background-color: #14181A;
+    transition: 500ms;
+    color: white;
+    cursor: pointer;
+}
+
+.pergunta p {
+    color: #000087;
+font-family: "Garet";
+font-size: 15px;
+margin-top: -10px;
+}
+
+.pergunta p:hover{
+    color: #4F37FF;
+    cursor: pointer;
+    transition: 500ms;
+}
+
+#logo-aloe img{
+    width: 150px;
+display: flex;
+align-items: center;
+margin: auto;
+margin-top: 60px;
+}
