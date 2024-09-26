@@ -1,0 +1,171 @@
+@font-face {
+    font-family: "garet";
+    src: url(garet);
+}
+
+/* Reset CSS */
+* {
+
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    
+}
+
+
+
+
+.banner {
+    /* vh é a porcentagem da ALTURA da tela */
+    /* vw é a porcentagem da LARGURA da tela */
+    height: 100vh;
+
+    background-repeat: no-repeat;
+
+    position: relative;
+
+    z-index: -1;
+
+    background-image: url("img/Camada_1\ \(2\).jpg");
+
+   
+}
+
+    .banner{
+        text-align: center;
+        font-family:"garet" ;
+        color: black;
+    } 
+
+
+
+
+.container-grid-banner{
+    margin-top: 300px;
+    font-size: 100px;
+}
+
+#sobrealoe h2{
+   
+    margin-top: 180px;
+    text-align: center;
+    padding: 20px 25%;
+    font-size:50px;
+    font-family:"garet";
+    color: black;
+}
+
+#sobrealoe p{
+
+margin-top: 20px;
+text-align: center;
+font-family: "garet";
+font-size: 25px;
+color: black;
+
+padding: 20px 25%;
+
+display: flex;
+justify-content: center;
+
+
+
+}
+
+#missaoaloe h2 {
+    margin-top: 500px;
+    text-align: center;
+    padding: 20px 25%;
+    font-size:30px;
+    font-family:"garet";
+    color: black;
+}
+
+#missaoaloe p{
+text-align: center;
+font-family: "garet";
+font-size: 20px;
+color: black;
+
+padding: 20px 25%;
+
+display: flex;
+justify-content: center;
+}
+
+#visaoaloe h2{
+    margin-top: 80px;
+    text-align: center;
+    padding: 20px 25%;
+    font-size:30px;
+    font-family:"garet";
+    color: black;
+}
+
+#visaoaloe p{
+    text-align: center;
+    font-family: "garet";
+    font-size: 20px;
+    color: black;
+    
+    padding: 20px 25%;
+    
+    display: flex;
+    justify-content: center;
+}
+
+
+#valoresaloe h2{
+    margin-top: 80px;
+    text-align: center;
+    padding: 20px 25%;
+    font-size:30px;
+    font-family:"garet";
+    color: black;
+}
+
+
+#valoresaloe p{
+text-align: center;
+font-family: "garet";
+font-size: 20px;
+color: black;
+
+padding: 20px 25%;
+
+display: flex;
+justify-content: center;
+}
+
+.banner2 {
+    /* vh é a porcentagem da ALTURA da tela */
+    /* vw é a porcentagem da LARGURA da tela */
+    height: 100vh;
+
+    background-repeat: no-repeat;
+
+    position: relative;
+
+    z-index: -1;
+
+    background-image: url("img/Free_Aromatherpay_Line_Mockup_5\ 3.jpg");
+
+   
+}
+
+    .banner2{
+        text-align: center;
+        font-family:"garet" ;
+        color: black;
+    } 
+
+
+
+
+.container-grid-banner2{
+    margin-top: 300px;
+    font-size: 100px;
+}
