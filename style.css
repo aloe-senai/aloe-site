@@ -31,6 +31,9 @@
     top: 1319px;
     left: 244px;
   }
+
+
+
   
   .home .text-wrapper {
     position: absolute;
@@ -45,11 +48,113 @@
     letter-spacing: 4.32px;
     line-height: 50px;
   }
+
+
+
+
+
+  /* From Uiverse.io by kennyotsu */ 
+.card {
+  /* color used to softly clip top and bottom of the .words container */
+  --bg-color: #21212100;
+  background-color: var(--bg-color);
+  padding: 1rem 2rem;
+  border-radius: 1.25rem;
+}
+.loader {
+  color: #14181a;
+  font-family: "DM Serif Text", Helvetica;
+  font-weight: 300;
+  font-size: 45px;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 40px;
+  padding: 0px 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 8px;
+}
+
+.words {
+  overflow: hidden;
+  position: relative;
+}
+.words::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    var(--bg-color) 10%,
+    transparent 30%,
+    transparent 70%,
+    var(--bg-color) 90%
+  );
+  z-index: 20;
+}
+
+.word {
+  display: block;
+  height: 100%;
+  padding-left: 20px;
+  color: #B4AEA2;
+  animation: spin_4991 6s infinite;
+  font-family: "Garet-Book", Helvetica;
+  font-size: 40px;
+  align-items: end;
+}
+
+@keyframes spin_4991 {
+  10% {
+    -webkit-transform: translateY(-102%);
+    transform: translateY(-102%);
+  }
+
+  25% {
+    -webkit-transform: translateY(-100%);
+    transform: translateY(-100%);
+  }
+
+  35% {
+    -webkit-transform: translateY(-202%);
+    transform: translateY(-202%);
+  }
+
+  50% {
+    -webkit-transform: translateY(-200%);
+    transform: translateY(-200%);
+  }
+
+  60% {
+    -webkit-transform: translateY(-302%);
+    transform: translateY(-302%);
+  }
+
+  75% {
+    -webkit-transform: translateY(-300%);
+    transform: translateY(-300%);
+  }
+
+  85% {
+    -webkit-transform: translateY(-402%);
+    transform: translateY(-402%);
+  }
+
+  100% {
+    -webkit-transform: translateY(-400%);
+    transform: translateY(-400%);
+  }
+}
+
+
+
+
+
   
   .home .text-wrapper-2 {
     position: absolute;
     width: 1081px;
-    top: 55px;
+    
     left: 178px;
     font-family: "Garet-Book", Helvetica;
     font-weight: 400;
@@ -59,6 +164,10 @@
     letter-spacing: 2.16px;
     line-height: 50px;
   }
+
+
+
+  
   
   .home .free-aromatherpay {
     position: absolute;
@@ -167,7 +276,7 @@
     left: 810px;
     border-radius: 50px;
     border: 2px solid;
-    border-color: #f4f4f4;
+    border-color: #14181A;
   }
   
   .home .text-wrapper-6 {
@@ -198,7 +307,7 @@
     font-weight: 200;
     font-style: italic;
     border: 2px solid #fefefe;
-    text-transform: uppercase;
+    
     color: #fefefe;
     text-decoration: none;
     font-weight: 200;
@@ -212,7 +321,7 @@
     left: -2px;
     width: calc(100% + 4px);
     height: calc(100% - 12px);
-    background-color: #212121;
+    background-color: #14181A;
     transition: 0.3s ease-in-out;
     transform: scaleY(1);
   }
@@ -228,10 +337,10 @@
     top: -2px;
     height: calc(100% + 4px);
     width: calc(100% - 12px);
-    background-color: #212121;
+    background-color: #14181A;
     transition: 0.3s ease-in-out;
     transform: scaleX(1);
-    transition-delay: 0.5s;
+    transition-delay: 0.2s;
   }
   
   a:hover::after {
@@ -245,13 +354,13 @@
   
   button {
   
-    position: absolute;
+   
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: none;
     text-decoration: none;
-    background-color: #212121;
+    background-color: #14181A;
     border: none;
   }
   
@@ -298,7 +407,7 @@
     font-family: "DM Serif Text", Helvetica;
     font-weight: 400;
     color: #14181a;
-    font-size: 36px;
+    font-size: 40px;
     text-align: center;
     letter-spacing: 3.24px;
     line-height: 50px;
@@ -313,7 +422,7 @@
     font-family: "DM Serif Text", Helvetica;
     font-weight: 400;
     color: #14181a;
-    font-size: 36px;
+    font-size: 40px;
     text-align: center;
     letter-spacing: 3.24px;
     line-height: 50px;
@@ -328,7 +437,7 @@
     font-family: "DM Serif Text", Helvetica;
     font-weight: 400;
     color: #14181a;
-    font-size: 36px;
+    font-size: 40px;
     text-align: center;
     letter-spacing: 3.24px;
     line-height: 50px;
@@ -343,10 +452,10 @@
     font-family: "Garet-Book", Helvetica;
     font-weight: 400;
     color: #14181a;
-    font-size: 16px;
+    font-size: 20px;
     text-align: center;
     letter-spacing: 1.44px;
-    line-height: 50px;
+    line-height: 60px;
   }
   
   .home .text-wrapper-12 {
@@ -357,10 +466,10 @@
     font-family: "Garet-Book", Helvetica;
     font-weight: 400;
     color: #14181a;
-    font-size: 16px;
+    font-size: 20px;
     text-align: center;
     letter-spacing: 1.44px;
-    line-height: 50px;
+    line-height: 60px;
   }
   
   .home .text-wrapper-13 {
@@ -371,10 +480,10 @@
     font-family: "Garet-Book", Helvetica;
     font-weight: 400;
     color: #14181a;
-    font-size: 16px;
+    font-size: 20px;
     text-align: center;
     letter-spacing: 1.44px;
-    line-height: 50px;
+    line-height: 60px;
   }
   
   .home .encontre-a-rotina-wrapper {
@@ -463,22 +572,85 @@
   
   .home .overlap-4 {
     position: absolute;
-    width: 711px;
+    display: flex;
+    align-items: center;
+    width:200px;
     height: 58px;
-    top: 2794px;
-    left: 829px;
+    top: 2800px;
+    left: 855px;
   }
   
-  .home .rectangle {
-    position: absolute;
-    width: 243px;
-    height: 58px;
-    top: 0;
-    left: 0;
-    border-radius: 100px;
-    border: 1px solid;
-    border-color: #000000;
+  .overlap-4 button {
+    background-color: #f1f1f1;
+    
+    a {
+    
+      position: relative;
+     
+      padding: 15px 30px;
+      font-family: "Inter", Helvetica;
+      font-weight: 200;
+      font-style: italic;
+      border: 2px solid #000000;
+      
+      color: #000000;
+      text-decoration: none;
+      font-weight: 200;
+      font-size: 20px;
+    }
+    
+    a::before {
+      content: '';
+      position: absolute;
+      top: 6px;
+      left: -2px;
+      width: calc(100% + 4px);
+      height: calc(100% - 12px);
+      background-color: #f1f1f1;
+      transition: 0.3s ease-in-out;
+      transform: scaleY(1);
+    }
+    
+    a:hover::before {
+      transform: scaleY(0);
+    }
+    
+    a::after {
+      content: '';
+      position: absolute;
+      left: 6px;
+      top: -2px;
+      height: calc(100% + 4px);
+      width: calc(100% - 12px);
+      background-color: #f1f1f1;
+      transition: 0.3s ease-in-out;
+      transform: scaleX(1);
+      transition-delay: 0.2s;
+    }
+    
+    a:hover::after {
+      transform: scaleX(0);
+    }
+    
+    a span {
+      position: relative;
+      z-index: 3;
+    }
+    
+    button {
+    
+     
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: none;
+      text-decoration: none;
+      background-color: #14181A;
+      border: none;
+    }
+    
   }
+  
   
   .home .text-wrapper-18 {
     position: absolute;
