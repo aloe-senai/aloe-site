@@ -15,17 +15,19 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 800px;
+    height: 750px;
     justify-content: space-between;
 }
 
 .form h2 {
     font-family: "Dm Serif Text";
     font-size: 45px;
+    padding: 10px;
+    margin-top: 50px;
 }
 
 .campo-email {
-    width: 400px;
+    width: 450px;
     text-align: left;
     display: flex;
     justify-content: center;
@@ -48,7 +50,7 @@
 }
 
 .campo-senha {
-    width: 400px;
+    width: 450px;
     text-align: left;
     display: flex;
     justify-content: center;
@@ -70,48 +72,10 @@
     text-indent: 10px;
 }
 
-.form button {
-    background-color: #f8f6f6;
-    margin-top: 35px;
-    width: 480px;
-     height: 52px;
-    font-family: "Garet";
-    font-size: 20px;
-    text-align: center;
-    color: #000;
-    border: 0.5px solid ;
-    border-radius: 100px;
-}
 
-.form button:hover {
-    background-color: #14181A;
-    transition: 600ms;
-    color: white;
-    cursor: pointer;
-}
-
-.pergunta p {
-    color: #000087;
-font-family: "Garet";
-font-size: 15px;
-}
-
-.pergunta p:hover{
-    color: #4F37FF;
-    cursor: pointer;
-    transition: 600ms;
-}
-
-#logo-aloe img{
-    width: 150px;
-display: flex;
-align-items: center;
-margin: auto;
-margin-top: 40px;
-}
 
 .campo-nome {
-    width: 400px;
+    width: 450px;
     text-align: left;
     display: flex;
     justify-content: center;
@@ -134,7 +98,7 @@ margin-top: 40px;
 }
 
 .campo-sobrenome {
-    width: 400px;
+    width: 450px;
     text-align: left;
     display: flex;
     justify-content: center;
@@ -157,7 +121,7 @@ margin-top: 40px;
 }
 
 .campo-confirmação-email {
-    width: 400px;
+    width: 450px;
     text-align: left;
     display: flex;
     justify-content: center;
@@ -180,7 +144,7 @@ margin-top: 40px;
 }
 
 .campo-confirmação-senha {
-    width: 400px;
+    width: 450px;
     text-align: left;
     display: flex;
     justify-content: center;
@@ -200,4 +164,44 @@ margin-top: 40px;
     border: 0.5px solid ;
     border-radius: 15px;
     text-indent: 10px;
+}
+.form button {
+    background-color: #f8f6f6;
+    width: 450px;
+     height: 52px;
+    font-family: "Garet";
+    font-size: 20px;
+    text-align: center;
+    color: #000;
+    border: 0.5px solid ;
+    border-radius: 100px;
+    margin-top: 20px;
+}
+
+.form button:hover {
+    background-color: #14181A;
+    transition: 500ms;
+    color: white;
+    cursor: pointer;
+}
+
+.pergunta p {
+    color: #000087;
+font-family: "Garet";
+font-size: 15px;
+margin-top: -10px;
+}
+
+.pergunta p:hover{
+    color: #4F37FF;
+    cursor: pointer;
+    transition: 500ms;
+}
+
+#logo-aloe img{
+    width: 150px;
+display: flex;
+align-items: center;
+margin: auto;
+margin-top: 60px;
 }
