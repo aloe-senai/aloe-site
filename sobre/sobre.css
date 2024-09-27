@@ -50,7 +50,7 @@
 
 #sobrealoe h2{
    
-    margin-top: 180px;
+    margin-top: 250px;
     text-align: center;
     padding: 20px 25%;
     font-size:50px;
@@ -157,6 +157,7 @@ justify-content: center;
 }
 
     .banner2{
+        margin-top: 150px;
         text-align: center;
         font-family:"garet" ;
         color: black;
