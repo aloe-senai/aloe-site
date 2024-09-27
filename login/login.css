@@ -1,0 +1,117 @@
+@font-face {
+    font-family: "Dm Serif Text", "Garet";
+    src: url(fonts/DMSerifDisplay-Regular.ttf), url(fonts/Garet-Book.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+
+.form {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.form h2 {
+    font-family: "Dm Serif Text";
+    font-size: 45px;
+}
+
+.campo-email {
+    width: 500px;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.campo-email label{
+    height: 38px;
+    font-size: 16px;
+    margin-bottom: 0px;
+    font-family: "Garet";
+}
+
+.campo-email input {
+    height: 50px;
+    font-family: "Garet";
+    color: #000;
+    border: 0.5px solid ;
+    border-radius: 15px;
+}
+
+.campo-senha {
+    width: 500px;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.campo-senha label{
+    height: 38px;
+    font-size: 16px;
+    margin-bottom: 0px;
+    font-family: "Garet";
+}
+
+.campo-senha input {
+    height: 50px;
+    font-family: "Garet";
+    color: #000;
+    border: 0.5px solid ;
+    border-radius: 15px;
+}
+
+.form button {
+    background-color: #f8f6f6;
+    margin-top: 35px;
+    width: 480px;
+     height: 52px;
+    font-family: "Garet";
+    font-size: 20px;
+    text-align: center;
+    color: #000;
+    border: 0.5px solid ;
+    border-radius: 100px;
+}
+
+.form button:hover {
+    background-color: #14181A;
+    transition: 600ms;
+    color: white;
+    cursor: pointer;
+}
+
+.pergunta p {
+    margin-top: -15px;
+    font-family: "Garet";
+    font-size: 15px;
+}
+
+.criar-conta p {
+    color: #000087;
+    margin-top: -40px;
+font-family: "Garet";
+font-size: 15px;
+}
+
+.criar-conta p:hover{
+    color: #4F37FF;
+    cursor: pointer;
+    transition: 600ms;
+}
+
+#logo-aloe img{
+    width: 150px;
+display: flex;
+align-items: center;
+margin: auto;
+margin-top: 40px;
+}
