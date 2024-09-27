@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.banner {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+
+    background-image: url(banner.1.svg);
+}
+
+.banner h2 {
+    color: #f4f4f4;
+
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+
+    font-size: 40px;
+    text-transform: uppercase;
+
+    margin-right: 200px;
+
+}
+
+#skincare {
+    margin: 0;
+
+}
+
+#skincare h2 {
+    color: black;
+
+    text-align: center;
+
+    font-size: 40px;
+    text-transform: uppercase;
+
+    margin: 80px;
+}
+
+.imagens-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    /*padding: 30px;*/
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.inicio-p p {
+    color: black;
+    font-size: 24px;
+
+    text-align: center;
+
+    padding: 60px;
+
+}
+
