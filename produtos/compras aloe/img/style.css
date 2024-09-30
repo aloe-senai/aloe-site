@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.banner {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+
+    background-image: url(banner.1.svg);
+}
+
+.banner h2 {
+    color: #f4f4f4;
+
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+
+    font-size: 40px;
+    text-transform: uppercase;
+
+    margin-right: 200px;
+
+}
+
+#skincare {
+    margin: 0;
+
+}
+
+#skincare h2 {
+    color: black;
+
+    text-align: center;
+
+    font-size: 40px;
+    text-transform: uppercase;
+
+    margin: 80px;
+}
+
+.imagens-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    /*padding: 30px;*/
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.inicio-p p {
+    color: black;
+    font-size: 24px;
+
+    text-align: center;
+
+    padding: 60px;
+
+}
+
+.p-slider {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin: 50px 0px;
+}
+
+.slider-heading {
+    font-size: 35px;
+    text-transform: uppercase;
+
+    color: black;
+
+    text-align: center;
+    margin: 0px;
+
+    padding: 60px;
+}
+
+.product-box {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+
+    padding: 15px;
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    border-radius: 10px;
+
+    margin: 0px 20px;
+}
+
+.p-img-container {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    overflow: hidden;
+}
+
+.p-img a,
+.p-img {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.p-img a img {
+    width: 100%;
+    height: 100%;
+
+    object-position: center;
+    object-fit: contain;
+
+}
+
+.p-box-text {
+    margin-top: 5px;
+    width: 100%;
+}
+
+.product-category {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.product-category span{
+    color: #938467;
+    font-size: 0.9rem;
+    margin: 5px 0px;
+}
