@@ -6,6 +6,21 @@
   
   }
   
+  html {
+    scroll-behavior: smooth;
+}
+
+.container-grid {
+  width: 80vw;
+  max-width: 1400px;
+
+  /* margin: 20px - Espaçamento externo de 20px */
+  /* margin: 20px 10px - Espaçamento 20px na vertical, 10px na horizontal */
+  /* margin: 20px 10px 5px - Espaçamento 20px para cima, 10px na horizontal, 5px para baixo */
+  /* margin: 20px 10px 5px 2px - Espaçamento 20px para cima, 10px para a direita, 5px para baixo, 2px para a esquerda */
+
+  margin: 0 auto;
+}
   
   .home {
     background-color: #f4f4f4;
@@ -19,7 +34,7 @@
     background-color: #f4f4f4;
     overflow: hidden;
     width: 1920px;
-    height: 4859px;
+    height: 4013px;
     position: relative;
   }
   
@@ -28,10 +43,9 @@
     position: absolute;
     width: 1439px;
     height: 619px;
-    top: 1319px;
-    left: 244px;
+    top: 900px;
+    left: 35px;
   }
-
 
 
   
@@ -39,14 +53,14 @@
     position: absolute;
     width: 1081px;
     top: 0;
-    left: 191px;
+    left: 30px;
     font-family: "DM Serif Text", Helvetica;
     font-weight: 400;
     color: #14181a;
     font-size: 48px;
     text-align: center;
     letter-spacing: 4.32px;
-    line-height: 50px;
+    line-height: 2px;
   }
 
 
@@ -200,8 +214,8 @@
     position: absolute;
     width: 1105px;
     height: 391px;
-    top: 2275px;
-    left: 398px;
+    top: 1930px;
+    left: 200px;
   }
   
   .home .text-wrapper-3 {
@@ -236,8 +250,8 @@
     position: absolute;
     width: 1920px;
     height: 469px;
-    top: 4390px;
-    left: 1px;
+    top: 3552px;
+    left: -150px;
     background-color: #14181a;
   }
   
@@ -306,9 +320,9 @@
     font-family: "Inter", Helvetica;
     font-weight: 200;
     font-style: italic;
-    border: 2px solid #fefefe;
+    border: 2px solid #f4f4f4;
     
-    color: #fefefe;
+    color: #f4f4f4;
     text-decoration: none;
     font-weight: 200;
     font-size: 20px;
@@ -380,8 +394,8 @@
   .home .text-wrapper-7 {
     position: absolute;
     width: 651px;
-    top: 3163px;
-    left: 930px;
+    top: 2715px;
+    left: 700px;
     font-family: "DM Serif Text", Helvetica;
     font-weight: 400;
     color: #14181a;
@@ -395,8 +409,8 @@
     position: absolute;
     width: 2081px;
     height: 312px;
-    top: 1963px;
-    left: -80px;
+    top: 1580px;
+    left: -287px;
   }
   
   .home .text-wrapper-8 {
@@ -487,40 +501,54 @@
   }
   
   .home .encontre-a-rotina-wrapper {
-    position: absolute;
-    width: 1920px;
-    height: 1079px;
-    top: 0;
-    left: 0;
+    height: 110vh;
+
+    background-repeat: no-repeat;
+
+    background-position: 180% 40%;
+
+    position: relative;
     background-image: url(./img/free-tube-mockup-4-1.png);
     background-size: cover;
     background-position: 50% 50%;
   }
   
   .home .encontre-a-rotina {
-    position: absolute;
-    width: 573px;
-    height: 137px;
-    top: 478px;
-    left: 1074px;
+    /* display: flex;
+    justify-content: center;
+    height: 10vh;
+
+    background-repeat: no-repeat;
+
+    background-position: 10% 40%; */
+    /* height: 800px; */
+    padding: 190px  55%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+    
   }
   
   .home .group {
     position: absolute;
-    width: 676px;
-    height: 603px;
-    top: 3152px;
-    left: 241px;
+    width: 690px;
+    height: 602px;
+    top: 2700px;
+    left: 40px;
     background-image: url(./img/free-jar-mockup-3.png);
     background-size: cover;
     background-position: 50% 50%;
   }
+
+  
   
   .home .text-wrapper-14 {
     position: absolute;
     width: 661px;
-    top: 3253px;
-    left: 1022px;
+    top: 2800px;
+    left: 792px;
     font-family: "Garet-Book", Helvetica;
     font-weight: 400;
     color: #000000;
@@ -576,9 +604,10 @@
     align-items: center;
     width:200px;
     height: 58px;
-    top: 2800px;
-    left: 855px;
+    top: 2417px;
+    left: 668px;
   }
+  
   
   .overlap-4 button {
     background-color: #f1f1f1;
