@@ -1,0 +1,262 @@
+@font-face {
+    font-family: Garet;
+    src: url(https://www.typeforward.com/typefaces/garet);
+}
+
+@font-face {
+    font-family: DM Serif Text;
+    src: url(https://fonts.google.com/share?selection.family=DM+Serif+Text:ital@0;1);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    font-family: "Garet";
+}
+
+h1,h2 {
+    font-family: "DM Serif Text";
+}
+
+p {
+    font-family: "Garet";
+}
+
+.banner {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+
+    background-image: url(banner.1.svg);
+}
+
+.banner h2 {
+    color: #f4f4f4;
+
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+
+    font-size: 40px;
+    text-transform: uppercase;
+
+    margin-right: 200px;
+
+}
+
+#skincare {
+    margin: 0;
+
+}
+
+#skincare h2 {
+    color: black;
+
+    text-align: center;
+
+    font-size: 40px;
+    text-transform: uppercase;
+
+    margin: 80px;
+}
+
+.imagens-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    /*padding: 30px;*/
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.inicio-p p {
+    color: black;
+    font-size: 24px;
+
+    text-align: center;
+
+    padding: 60px;
+
+}
+
+.p-slider {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin: 50px auto;
+
+    width: 95%;
+}
+
+.slider-heading {
+    font-size: 35px;
+    text-transform: uppercase;
+
+    color: black;
+
+    text-align: center;
+    margin: 0px;
+
+    padding: 60px;
+}
+
+.product-box {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+
+    padding: 15px;
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    border-radius: 10px;
+
+    margin: 0px 20px;
+
+    position: relative;
+}
+
+.p-img-container {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    overflow: hidden;
+}
+
+.p-img a,
+.p-img {
+    width: 100%;
+    height: 300px;
+    display: flex;
+}
+
+.p-img a img {
+    width: 100%;
+    height: 100%;
+
+    object-position: center;
+    object-fit: contain;
+
+}
+
+.p-box-text {
+    margin-top: 5px;
+    width: 100%;
+}
+
+.product-category {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.product-category span{
+    color: #938467;
+    font-size: 0.9rem;
+    margin: 5px 0px;
+}
+
+.product-title {
+    color: black;
+    text-decoration: none;
+}
+
+.price-buy{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 8px;
+}
+
+.price-buy .p-price {
+    font-size: 1.3rem;
+    color: black;
+    font-family: "Garet";
+}
+
+.price-buy .p-buy-button {
+    color: #f4f4f4;
+    background-color: #938467;
+
+    border-radius: 100px;
+    width: 90px;
+    text-align: center;
+
+    margin: 0px 5px;
+    
+    font-family: "DM Serif Text";
+}
+
+.price-buy .p-buy-button:hover {
+    /*text-decoration: underline;*/
+    color: #f4f4f4;
+    background-color: #8C9772;
+
+    border-radius: 100px;
+
+    width: 90px;
+
+    text-align: center;
+}
+
+.p-discount {
+    position: absolute;
+    left: 20px;
+    top: 5px;
+
+    width: 45px;
+    height: 24px;
+
+    color: #f4f4f4;
+    background-color: #8C9772;
+    font-size: 0.9rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    z-index: 300;
+
+    border-radius: 3px;
+}
+
+.slider-btns {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+
+    margin: 30px auto 10px auto;
+    padding: 0px 10px;
+}
+
+.slider-btns button {
+    position: static !important;
+    transform: translate(0,0);
+
+    background-color: #f3f3f3;
+    width: 80px;
+    height: 35px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+
+    border: 1px solid #cfcfcf;
+    border-radius: 4px;
+}
+
