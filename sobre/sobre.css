@@ -1,6 +1,6 @@
 @font-face {
     font-family: "garet";
-    src: url(garet);
+    src: url(https://www.typeforward.com/typefaces/garet);
 }
 
 /* Reset CSS */
@@ -56,14 +56,15 @@
     font-size:50px;
     font-family:"garet";
     color: black;
+    text-transform: uppercase;
 }
 
 #sobrealoe p{
 
-margin-top: 20px;
+margin-top: 60px;
 text-align: center;
 font-family: "garet";
-font-size: 25px;
+font-size: 20px;
 color: black;
 
 padding: 20px 25%;
@@ -79,10 +80,12 @@ justify-content: center;
     margin-top: 500px;
     text-align: center;
     padding: 20px 25%;
-    font-size:30px;
+    font-size:40px;
     font-family:"garet";
     color: black;
+    text-transform: uppercase;
 }
+
 
 #missaoaloe p{
 text-align: center;
@@ -100,10 +103,12 @@ justify-content: center;
     margin-top: 80px;
     text-align: center;
     padding: 20px 25%;
-    font-size:30px;
+    font-size:40px;
     font-family:"garet";
     color: black;
+    text-transform: uppercase;
 }
+
 
 #visaoaloe p{
     text-align: center;
@@ -122,10 +127,12 @@ justify-content: center;
     margin-top: 80px;
     text-align: center;
     padding: 20px 25%;
-    font-size:30px;
+    font-size:40px;
     font-family:"garet";
     color: black;
+    text-transform: uppercase;
 }
+
 
 
 #valoresaloe p{
