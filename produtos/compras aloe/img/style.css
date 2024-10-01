@@ -23,7 +23,8 @@ a {
     font-family: "Garet";
 }
 
-h1,h2 {
+h1,
+h2 {
     font-family: "DM Serif Text";
 }
 
@@ -32,32 +33,43 @@ p {
 }
 
 .banner {
-    position: relative;
-    width: 100vw;
+    background-image: url(banner.1.svg);
+    width: 100%;
     height: 100vh;
 
-    background-image: url(banner.1.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.banner h2 {
+.banner .content {
     color: #f4f4f4;
 
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-
-
-    font-size: 40px;
+    font-size: 12px;
     text-transform: uppercase;
 
-    margin-right: 200px;
+    margin-right: 600px;
+}
 
+.banner .content div:nth-child(1) {
+    font-family: 'Garet';
+
+    font-size: 3em;
+    /*3em = 12px x 3*/
+}
+
+.banner .content div:nth-child(2) {
+    font-family: 'DM Serif Text';
+
+    font-size: 4em;
 }
 
 #skincare {
-    margin: 0;
-
+    margin: 30px;
 }
 
 #skincare h2 {
@@ -69,7 +81,10 @@ p {
     text-transform: uppercase;
 
     margin: 80px;
+
+    font-weight: 100;
 }
+
 
 .imagens-box {
     display: flex;
@@ -111,7 +126,7 @@ p {
     text-align: center;
     margin: 0px;
 
-    padding: 60px;
+    padding: 20px;
 }
 
 .product-box {
@@ -164,7 +179,7 @@ p {
     flex-wrap: wrap;
 }
 
-.product-category span{
+.product-category span {
     color: #938467;
     font-size: 0.9rem;
     margin: 5px 0px;
@@ -175,7 +190,7 @@ p {
     text-decoration: none;
 }
 
-.price-buy{
+.price-buy {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -197,7 +212,7 @@ p {
     text-align: center;
 
     margin: 0px 5px;
-    
+
     font-family: "DM Serif Text";
 }
 
@@ -215,8 +230,8 @@ p {
 
 .p-discount {
     position: absolute;
-    left: 20px;
-    top: 5px;
+    left: 30px;
+    top: 40px;
 
     width: 45px;
     height: 24px;
@@ -245,7 +260,7 @@ p {
 
 .slider-btns button {
     position: static !important;
-    transform: translate(0,0);
+    transform: translate(0, 0);
 
     background-color: #f3f3f3;
     width: 80px;
@@ -258,5 +273,37 @@ p {
 
     border: 1px solid #cfcfcf;
     border-radius: 4px;
+}
+
+.slider-btns button span {
+    font-weight: bold;
+    padding: 10px 15px 10px 10px;
+    position: relative;
+    text-decoration: none;
+}
+
+.slider-btns button span::before,
+.slider-btns button span::after {
+    border-right: 2px solid;
+    display: block;
+
+    height: 8px;
+    margin-top: -6px;
+
+    position: absolute;
+    transform: rotate(135deg);
+    right: 10px;
+    top: 50%;
+    width: 0;
+    content: '';
+}
+
+.slider-btns button span::after {
+    margin-top: -1px;
+    transform: rotate(45deg);
+}
+
+.slider-btns .glider-prev span {
+    transform: rotate(-180deg);
 }
 

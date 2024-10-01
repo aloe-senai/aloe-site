@@ -4,6 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
     <title>Produtos</title>
 
     <link rel="stylesheet" href="style.css">
@@ -15,10 +17,12 @@
 <body>
 
     <div class="banner">
-        <img>
 
-        <h2>começe a</h2>
-        <h2>explorar</h2>
+        <div class="content">
+            <div>comece a</div>
+            <div>explorar</div>
+        </div>
+
     </div>
 
     <section id="skincare">
@@ -89,14 +93,14 @@
 
                     <div class="product-box">
 
-                        <span class="p-discount">-20%</span>
+                        <!--<span class="p-discount">-20%</span>-->
 
                         <div class="p-img-container">
 
                             <div class="p-img">
 
                                 <a href="#">
-                                    <img src="slider1/Frame 45.png" alt="">
+                                    <img src="slider1/Frame 43.png" alt="">
                                 </a>
                             </div>
 
@@ -109,11 +113,11 @@
                             </div>
 
                             <a href="#" class="product-title">
-                                Sérum facial anti-age
+                                Kit- skincare summer
                             </a>
 
                             <div class="price-buy">
-                                <span class="p-price">R$50,99</span>
+                                <span class="p-price">R$70,50</span>
                                 <a href="#" class="p-buy-button">Comprar</a>
                             </div>
 
@@ -130,7 +134,7 @@
                             <div class="p-img">
 
                                 <a href="#">
-                                    <img src="slider1/Frame 45.png" alt="">
+                                    <img src="slider1/Frame 44.png" alt="">
                                 </a>
                             </div>
 
@@ -143,11 +147,11 @@
                             </div>
 
                             <a href="#" class="product-title">
-                                Sérum facial anti-age
+                                Protetor solar FPS 50
                             </a>
 
                             <div class="price-buy">
-                                <span class="p-price">R$50,99</span>
+                                <span class="p-price">R$53,00</span>
                                 <a href="#" class="p-buy-button">Comprar</a>
                             </div>
 
@@ -157,14 +161,12 @@
 
                     <div class="product-box">
 
-                        <span class="p-discount">-20%</span>
-
                         <div class="p-img-container">
 
                             <div class="p-img">
 
                                 <a href="#">
-                                    <img src="slider1/Frame 45.png" alt="">
+                                    <img src="slider1/3.png" alt="">
                                 </a>
                             </div>
 
@@ -177,11 +179,11 @@
                             </div>
 
                             <a href="#" class="product-title">
-                                Sérum facial anti-age
+                                Máscara facial em gel
                             </a>
 
                             <div class="price-buy">
-                                <span class="p-price">R$50,99</span>
+                                <span class="p-price">R$17,50</span>
                                 <a href="#" class="p-buy-button">Comprar</a>
                             </div>
 
@@ -191,14 +193,14 @@
 
                     <div class="product-box">
 
-                        <span class="p-discount">-20%</span>
+                        <!--<span class="p-discount">-20%</span>-->
 
                         <div class="p-img-container">
 
                             <div class="p-img">
 
                                 <a href="#">
-                                    <img src="slider1/Frame 45.png" alt="">
+                                    <img src="slider1/Frame 49.png" alt="">
                                 </a>
                             </div>
 
@@ -211,11 +213,11 @@
                             </div>
 
                             <a href="#" class="product-title">
-                                Sérum facial anti-age
+                                Creme reparador para olhos
                             </a>
 
                             <div class="price-buy">
-                                <span class="p-price">R$50,99</span>
+                                <span class="p-price">R$45,00</span>
                                 <a href="#" class="p-buy-button">Comprar</a>
                             </div>
 
@@ -225,14 +227,13 @@
 
                     <div class="product-box">
 
-                        <span class="p-discount">-20%</span>
 
                         <div class="p-img-container">
 
                             <div class="p-img">
 
                                 <a href="#">
-                                    <img src="slider1/Frame 45.png" alt="">
+                                    <img src="slider1/1.png" alt="">
                                 </a>
                             </div>
 
@@ -245,11 +246,11 @@
                             </div>
 
                             <a href="#" class="product-title">
-                                Sérum facial anti-age
+                                Máscara para olhos em gel
                             </a>
 
                             <div class="price-buy">
-                                <span class="p-price">R$50,99</span>
+                                <span class="p-price">R$17,50</span>
                                 <a href="#" class="p-buy-button">Comprar</a>
                             </div>
 
@@ -259,14 +260,12 @@
 
                     <div class="product-box">
 
-                        <span class="p-discount">-20%</span>
-
                         <div class="p-img-container">
 
                             <div class="p-img">
 
                                 <a href="#">
-                                    <img src="slider1/Frame 45.png" alt="">
+                                    <img src="slider1/2.png" alt="">
                                 </a>
                             </div>
 
@@ -279,11 +278,11 @@
                             </div>
 
                             <a href="#" class="product-title">
-                                Sérum facial anti-age
+                                Creme revitalizante
                             </a>
 
                             <div class="price-buy">
-                                <span class="p-price">R$50,99</span>
+                                <span class="p-price">R$17,00</span>
                                 <a href="#" class="p-buy-button">Comprar</a>
                             </div>
 
@@ -302,7 +301,6 @@
 
     </section>
 
-
     <script src="js/glider.js"></script>
 
     <script>
@@ -314,7 +312,49 @@
             arrows: {
                 prev: '.glider-prev',
                 next: '.glider-next'
-            }
+            },
+
+            responsive: [
+                {
+                    // screens greater than >= 775px
+                    breakpoint: 1200,
+                    settings: {
+                        // Set to `auto` and provide item width to adjust to viewport
+                        slidesToShow: 4,
+                        slidesToScroll: 2,
+                    }
+                }, {
+                    // screens greater than >= 1024px
+                    breakpoint: 900,
+                    settings: {
+                        slidesToShow: 3,
+                        slidesToScroll: 1,
+                    }
+                }, {
+                    // screens greater than >= 1024px
+                    breakpoint: 640,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 1,
+                    }
+                }, {
+                    // screens greater than >= 1024px
+                    breakpoint: 304,
+                    settings: {
+                        slidesToShow: 1.5,
+                        slidesToScroll: 1,
+                    }
+                }, {
+                    // screens greater than >= 1024px
+                    breakpoint: 0,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                    }
+                }
+            ]
+
+
         });
     </script>
 </body>
