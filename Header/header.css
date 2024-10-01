@@ -1,113 +1,77 @@
-@font-face{
-    font-family:"Garet", "DMSerif-Text";
-    src: url(Fontes/DMSerifText-Regular.ttf),url(Fontes/Garet-Book.otf);
-    
-    }
-    
-    * {
-        margin: 0;
-        padding: 10px;
-        box-sizing: border-box;
-    }
-    
-    
-    
-    .container-grid {
-        width: 120%;
-        max-width: 1200px;
-        
-    }
+@font-face {
+    font-family: "Garet";
+    src: url("Fontes/Garet-Book.otf") format("opentype");
+}
 
-    .logo{
-        width: 700px;
-        display: flex;
-    }
-    
-    .menu {
-        width: 700px;
-        display: flex;
-        align-items: flex-end;
-        justify-content:right;
-        margin-left: 700px;
-        position: relative;
-        top: -60px;
+@font-face {
+    font-family: "DMSerif-Text";
+    src: url("Fontes/DMSerifText-Regular.ttf") format("truetype");
+}
 
-        
-    }
+* {
+    margin: 0;
+    padding: 10px;
+}
 
-    .img{
-        width: 700px;
-        display: flex;
-        align-items: flex-end;
-        margin-left: 100px;
-        
-        
-    }
+.container-grid {
+    width: 100%;
+    max-width: 1500px;
+}
+
+.logo {
+    width: 700px;
+    display: flex;
+}
+
+.menu {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin:auto;
+}
+
+.img {
+    width: auto;
+    display: flex;
+    align-items: flex-end;
+    margin-left: 100px;
+}
 
 
 
-    .text{
-        width: 700px;
-        display: flex;
-        justify-content: space-evenly;
+.formulario, .produtos, .sobre {
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    width: auto;
+    display: flex;
+    flex-wrap: nowrap;
+}
 
-    }
+.menu a {
+    font-size: 25px;
+    font-family: "Garet";
+    color: black;
+    text-decoration: underline transparent;
+    text-decoration-thickness: 1px;
+    transition: text-decoration-color 500ms ease;
+}
 
-    .formulario{
-        display: flex;
-        margin-left: 50px;
-    }
+.menu a:hover {
+    text-decoration-color: black;
+}
 
-    .produtos{
-        display: flex;
-        margin-left: 50px;
-        margin-right: 50px;
-    }
+.conteudo-banner {
+    height: calc(100vh - 280px);
+    display: flex;
+    align-items: center;
+}
 
-    .sobre{
-        display: flex;
-        margin-right: 50px;
-    }
-
-
-
-    
-    
-    .menu a {
-        font-size: 25px;
-        font-family: "Garet";
-    
-        color: black;
-        text-decoration: Underline transparent;
-        text-decoration-thickness: 1px;
-    
-        transition: text-decoration 500ms ease;
-    
-    
-    }
-    
-    .menu a:hover {
-        color: black;
-    
-        text-decoration-color:black;
-    }
-    
-    .conteudo-banner {
-        height: calc(100vh - 280px);
-        display: flex;
-        align-items: center;
-    
-    }
-    
-    .conteudo-banner p {
-        color: black;
-        text-align: center;
-        margin-top: 10px;
-    
-        font-family: "Garet";
-        font-size: 32px;
-    
-    }
-
-
-    
+.conteudo-banner p {
+    color: black;
+    text-align: center;
+    margin-top: 10px;
+    font-family: "Garet";
+    font-size: 32px;
+}

@@ -1,84 +1,54 @@
-@font-face{
-    font-family:"Garet", "DMSerif-Text";
-    src: url(Fontes/DMSerifText-Regular.ttf),url(Fontes/Garet-Book.otf);
-    
-    }
-    
-    
-    
-    
-    .container-grid {
-        width: 120%;
-        max-width: 1200px;
-        
-    }
-    * {
-        margin: 0;
-        padding: 10px;
-        box-sizing: border-box;
-    }
-    
-    
-    
-    .container-grid {
-        width: 120%;
-        max-width: 1500px;
-        
-    }
+@font-face {
+    font-family: "Garet";
+    src: url("Fontes/Garet-Book.otf") format("opentype");
+}
 
-    
-    
-    .menu {
-        width: 100%;;
-        display: flex;
-        align-items: flex-end;
-        justify-content:space-between;  
-        margin-bottom: 100px;
-    }
+@font-face {
+    font-family: "DMSerifText";
+    src: url("Fontes/DMSerifText-Regular.ttf") format("truetype");
+}
 
-    .icone-redes{
-        width: 700px;
-        display: flex;
-        align-items: center;
-        margin-left: 100px;
-        size: 10px;
-           
-        white-space: nowrap; 
-    }
+* {
+    margin: 0;
+    padding: 10px;
+    box-sizing: border-box;
+}
 
+.container-grid {
+    width: 100%;
+    max-width: 1500px;
+}
 
+.menu {
+    font-size: 25px;
+    font-family: "Garet";
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    white-space: nowrap;
+    margin-bottom: 100px;
+}
 
-    .menu{
-        font-size: 25px;
-        font-family: "Garet";
-        width: 800px;
-        display: flex;
-        justify-content: space-between;
-        position: relative;
-        align-items: center;
-        left: 230px;
-        white-space: nowrap;
-        
+.icone-redes {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    justify-content: space-evenly;
+    margin-top: 8%;
+}
 
-    }   
+.menu a {
+    color: black;
+    text-decoration: underline transparent;
+    text-decoration-thickness: 1px;
+    transition: text-decoration 500ms ease;
+}
 
-    
-
-
-
-    
-    
-    .menu a{
-
-        color: black;
-        text-decoration: Underline transparent;
-        text-decoration-thickness: 1px;
-        transition: text-decoration 500ms ease;
-    
-    
-    }
-
-
+.menu a:hover {
+    text-decoration: underline black;
+}
 
     
     
