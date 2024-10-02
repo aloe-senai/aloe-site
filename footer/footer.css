@@ -22,21 +22,15 @@
 .menu {
     font-size: 25px;
     font-family: "Garet";
-    width: 100%;
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    white-space: nowrap;
-    margin-bottom: 100px;
+    gap: 145px;
 }
 
 .icone-redes {
-    width: 100%;
     display: flex;
     align-items: center;
-    white-space: nowrap;
     justify-content: space-evenly;
-    margin-top: 8%;
+    margin-top: 4%;
 }
 
 .menu a {
