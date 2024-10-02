@@ -1,6 +1,7 @@
 
 .form {
     margin: 0 auto;
+    padding: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -15,7 +16,8 @@
 }
 
 .campo-email {
-    width: 450px;
+    width: 100%;
+    max-width: 450px;
     text-align: left;
     display: flex;
     justify-content: center;
@@ -39,7 +41,8 @@
 }
 
 .campo-nome {
-    width: 450px;
+    width: 100%;
+    max-width: 450px;
     text-align: left;
     display: flex;
     justify-content: center;
@@ -63,7 +66,8 @@
 }
 
 .campo-descricao {
-    width: 450px;
+    width: 100%;
+    max-width: 450px;
     text-align: left;
     display: flex;
     justify-content: center;
@@ -90,7 +94,8 @@
 }
 
 .campo-ajudar {
-    width: 450px;
+    width: 100%;
+    max-width: 450px;
     text-align: left;
     display: flex;
     justify-content: center;
@@ -122,7 +127,8 @@
 .form button {
     background-color: #f8f6f6;
     margin-top: 35px;
-    width: 450px;
+    width: 100%;
+    max-width: 450px;
      height: 52px;
     font-family: "Garet";
     font-size: 20px;

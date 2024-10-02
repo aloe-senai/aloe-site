@@ -6,7 +6,7 @@ event.preventDefault()
     let senha = document.getElementById("campo-senha").value;
 
     
-    if (email === "admin" && senha === "senha123") {
+    if (email === "a" && senha === "senha123") {
         document.getElementById("mensagem").textContent = "Login bem sucedido";
         document.getElementById("mensagem").style.color = "green"; 
         alert ("Login bem sucedido")
