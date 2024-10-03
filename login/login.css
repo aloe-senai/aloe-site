@@ -76,7 +76,8 @@
 .form button {
     background-color: #f8f6f6;
     margin-top: 35px;
-    width: 480px;
+    width: 100%;
+    max-width: 480px;
      height: 52px;
     font-family: "Garet";
     font-size: 20px;
