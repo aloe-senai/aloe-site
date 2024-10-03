@@ -8,10 +8,11 @@
     <link rel="shortcut icon" href="img/V. logo.png" type="imagem/x-icon">
 
     <link rel="stylesheet" href="login.css">
+    <script src="login.js" defer></script>
 </head>
 <body>
     <section id="login">
-        <form action="" class="form">
+        <form action="" class="form" id="login-form" onsubmit="login(event)">
             <h2>login</h2>
             <div class="campo-email">
                 <label for="campo-email">email</label>
@@ -26,9 +27,9 @@
             <p>não possui uma conta?</p>    
             </div>
             <div class="criar-conta">
-            <p>criar conta</p>    
+                <p><a href="../cadastro/cadastro.html">criar conta</a></p>   
             </div>
-            
+            <div class="mensagem" id="mensagem"></div>
         </form>
     </section>
     <section id="logo-aloe">

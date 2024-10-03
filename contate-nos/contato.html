@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aloe</title>
+    <link rel="shortcut icon" href="img/V. logo.png" type="imagem/x-icon">
+    
+    <link rel="stylesheet" href="contato.css">
+    <script src="contato.js" defer></script>
+
+</head>
+<body>
+    <section id="login">
+        <form onsubmit="solicitarOrcamento(event)" class="form">
+            <h2>contate-nos</h2>
+            <div class="campo-nome">
+                <label for="campo-nome">Nome</label>
+                <input type="text" placeholder="Escreva aqui" id="campo-nome">
+            </div>
+            <div class="campo-email">
+                <label for="campo-email">E-mail</label>
+                <input type="email" placeholder="Escreva aqui" id="campo-email">
+            </div>
+            <div class="campo-ajudar">
+                <label for="campo-ajudar">Como podemos te ajudar?</label>
+                <select id="campo-ajudar" name="como-podemos-te-ajudar">
+                    <option value="">Escolha uma opção</option>
+                    <option value="compras">Como comprar?</option>
+                    <option value="trocas">Trocas e devolução</option>
+                    <option value="conta">Conta do site</option>
+                    <option value="entrega">Problemas na entrega</option>
+                </select>
+            </div>
+            <div class="campo-descricao">
+                <label for="campo-descricao">Mensagem</label>
+                <textarea id="campo-descricao" placeholder="Escreva aqui" cols="20" rows="3"></textarea>
+            </div>
+            <button type="submit">Enviar</button>
+        </form>        
+    </section>
+    <section id="logo-aloe">
+        <img src="img/V. logo.png" alt="">
+    </section>
+    
+</body>
+</html>
