@@ -890,7 +890,7 @@
 }
 
 .container-grid {
-    width: 100%;
+    width: 50%;
     max-width: 1500px;
     display: flex;
     align-items: center;
