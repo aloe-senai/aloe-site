@@ -17,7 +17,7 @@
     margin: 0 auto;
 }
 
-header .container-grid{
+header .container-grid {
     width: 100%;
     max-width: 1480px;
     display: flex;
@@ -28,11 +28,12 @@ header .container-grid{
 
 
 .menu {
-    
+
     display: flex;
     gap: 225px;
-    
+
 }
+
 .menu a {
     font-size: 25px;
     font-family: "Garet";
@@ -256,12 +257,17 @@ header .container-grid{
     margin-top: 60px;
 }
 
-.menu {
+.menu-footer {
     font-size: 25px;
     font-family: "Garet";
     display: flex;
-    gap: 145px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 80px;
+    align-items: center;
 }
+
 
 .icone-redes {
     display: flex;
@@ -270,13 +276,13 @@ header .container-grid{
     margin-top: 4%;
 }
 
-.menu a {
+.menu-footer a {
     color: black;
     text-decoration: underline transparent;
     text-decoration-thickness: 1px;
     transition: text-decoration 500ms ease;
 }
 
-.menu a:hover {
+.menu-footer a:hover {
     text-decoration: underline black;
 }
