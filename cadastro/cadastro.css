@@ -9,6 +9,43 @@
     box-sizing: border-box;
 }
 
+.container-grid {
+    padding: 10px;
+    width: 77.083vw;
+    max-width: 1480px;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+header .container-grid {
+    width: 100%;
+    max-width: 1480px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+
+.menu {
+
+    display: flex;
+    gap: 225px;
+
+}
+
+.menu a {
+    font-size: 25px;
+    font-family: "Garet";
+    color: black;
+    text-decoration: underline transparent;
+    text-decoration-thickness: 1px;
+    transition: text-decoration-color 500ms ease;
+}
+
+.menu a:hover {
+    text-decoration-color: black;
+}
 
 .form {
     padding: 10px;
@@ -36,7 +73,7 @@
     flex-direction: column;
 }
 
-.campo-email label{
+.campo-email label {
     font-size: 16px;
     margin-bottom: 0px;
     font-family: "Garet";
@@ -46,7 +83,7 @@
     height: 50px;
     font-family: "Garet";
     color: #000;
-    border: 0.5px solid ;
+    border: 0.5px solid;
     border-radius: 15px;
     text-indent: 10px;
 }
@@ -60,7 +97,7 @@
     flex-direction: column;
 }
 
-.campo-senha label{
+.campo-senha label {
     font-size: 16px;
     margin-bottom: 0px;
     font-family: "Garet";
@@ -70,7 +107,7 @@
     height: 50px;
     font-family: "Garet";
     color: #000;
-    border: 0.5px solid ;
+    border: 0.5px solid;
     border-radius: 15px;
     text-indent: 10px;
     font-size: 16px;
@@ -87,7 +124,7 @@
     flex-direction: column;
 }
 
-.campo-nome label{
+.campo-nome label {
     font-size: 16px;
     margin-left: 5px;
     font-family: "Garet";
@@ -97,7 +134,7 @@
     height: 50px;
     font-family: "Garet";
     color: #000;
-    border: 0.5px solid ;
+    border: 0.5px solid;
     border-radius: 15px;
     text-indent: 10px;
     font-size: 16px;
@@ -112,7 +149,7 @@
     flex-direction: column;
 }
 
-.campo-sobrenome label{
+.campo-sobrenome label {
     font-size: 16px;
     margin-left: 5px;
     font-family: "Garet";
@@ -122,7 +159,7 @@
     height: 50px;
     font-family: "Garet";
     color: #000;
-    border: 0.5px solid ;
+    border: 0.5px solid;
     border-radius: 15px;
     text-indent: 10px;
     font-size: 16px;
@@ -137,7 +174,7 @@
     flex-direction: column;
 }
 
-.campo-confirmação-email label{
+.campo-confirmação-email label {
     font-size: 16px;
     margin-left: 5px;
     font-family: "Garet";
@@ -147,7 +184,7 @@
     height: 50px;
     font-family: "Garet";
     color: #000;
-    border: 0.5px solid ;
+    border: 0.5px solid;
     border-radius: 15px;
     text-indent: 10px;
     font-size: 16px;
@@ -162,7 +199,7 @@
     flex-direction: column;
 }
 
-.campo-confirmação-senha label{
+.campo-confirmação-senha label {
     font-size: 16px;
     margin-left: 5px;
     font-family: "Garet";
@@ -172,21 +209,22 @@
     height: 50px;
     font-family: "Garet";
     color: #000;
-    border: 0.5px solid ;
+    border: 0.5px solid;
     border-radius: 15px;
     text-indent: 10px;
     font-size: 16px;
 }
+
 .form button {
     background-color: #f8f6f6;
     max-width: 450px;
     width: 100%;
-     height: 52px;
+    height: 52px;
     font-family: "Garet";
     font-size: 20px;
     text-align: center;
     color: #000;
-    border: 0.5px solid ;
+    border: 0.5px solid;
     border-radius: 100px;
     margin-top: 20px;
 }
@@ -200,21 +238,51 @@
 
 .pergunta p {
     color: #000087;
-font-family: "Garet";
-font-size: 15px;
-margin-top: -10px;
+    font-family: "Garet";
+    font-size: 15px;
+    margin-top: -10px;
 }
 
-.pergunta p:hover{
+.pergunta p:hover {
     color: #4F37FF;
     cursor: pointer;
     transition: 500ms;
 }
 
-#logo-aloe img{
+#logo-aloe img {
     width: 150px;
-display: flex;
-align-items: center;
-margin: auto;
-margin-top: 60px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    margin-top: 60px;
+}
+
+.menu-footer {
+    font-size: 25px;
+    font-family: "Garet";
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 80px;
+    align-items: center;
+}
+
+
+.icone-redes {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 4%;
+}
+
+.menu-footer a {
+    color: black;
+    text-decoration: underline transparent;
+    text-decoration-thickness: 1px;
+    transition: text-decoration 500ms ease;
+}
+
+.menu-footer a:hover {
+    text-decoration: underline black;
 }

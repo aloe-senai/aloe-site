@@ -9,6 +9,7 @@
     box-sizing: border-box;
 }
 
+
 body {
     margin: 0;
 }
@@ -299,3 +300,4 @@ p {
 .slider-btns .glider-prev3 span {
     transform: rotate(-180deg);
 }
+

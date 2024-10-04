@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,10 +8,31 @@
     <link rel="shortcut icon" href="img/V. logo.png" type="imagem/x-icon">
 
     <link rel="stylesheet" href="cadastro.css">
-<script src="cadastro.js" defer></script>
+    <script src="cadastro.js" defer></script>
 
 </head>
+
 <body>
+    <header>
+        <div class="container-grid">
+
+            <div class="logo">
+                <a href="../index.html"><img src="img/Group 18.svg" alt="Logo Aloe"> </a>
+            </div>
+
+            <nav class="menu">
+                <a href="../sobre/sobre.html" class="sobre">Sobre</a>
+                <a href="../produtos/compras aloe/img/produtos.html" class="produtos">Produtos</a>
+                <a href="../contate-nos/contato.html" class="formulario">Formulário</a>
+            </nav>
+            
+            <div class="img">
+                <a href="../login/login.html"><img src="img/Person.svg" alt="person"></a>
+            </div>
+
+        </div>
+    </header>
+
     <section id="cadastre-se">
         <form action="" class="form">
             <h2>cadastre-se</h2>
@@ -31,7 +52,7 @@
                 <label for="campo-confirmação-email">confirme seu email</label>
                 <input type="text" placeholder="Escreva aqui" id="campo-confirmação-email">
             </div>
-           
+
             <div class="campo-senha">
                 <label for="campo-senha">senha</label>
                 <input type="password" placeholder="Escreva aqui" id="campo-senha">
@@ -42,13 +63,30 @@
             </div>
             <button type="submit">Enviar</button>
             <div class="pergunta">
-              <p><a href="../login/login.html">já possuo uma conta</a></p>   
+                <p><a href="../login/login.html">já possuo uma conta</a></p>
             </div>
         </form>
     </section>
     <section id="logo-aloe">
         <img src="img/V. logo.png" alt="">
     </section>
-    
+
+    <footer>
+        <div class="container-grid">
+            <nav class="menu-footer">
+                <a href="../contate-nos/contato.html"class="Contate-nos">Contate-nos</a>
+                <a href="#">Política de privacidade</a>
+                <a href="#">Política dos cookies</a>
+                <a href="#">Início</a>
+            </nav>
+            
+            <div class="icone-redes">
+                <img src="img/Youtube-black.svg" alt="Ícone do YouTube">
+                <img src="img/Instagram-black.svg" alt="Ícone do Instagram">
+                <img src="img/tik black.svg" alt="Ícone do TikTok">
+            </div>
+        </div>
+    </footer>
 </body>
+
 </html>
