@@ -9,6 +9,42 @@
     box-sizing: border-box;
 }
 
+.container-grid {
+    padding: 10px;
+    width: 77.083vw;
+    max-width: 1480px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    
+}
+
+header .container-grid {
+    width: 100%;
+    max-width: 1480px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: -30px;
+}
+
+
+.menu {
+    display: flex;
+    gap: 225px;
+}
+
+.menu a {
+    font-size: 25px;
+    font-family: "Garet";
+    color: black;
+    text-decoration: underline transparent;
+    text-decoration-thickness: 1px;
+    transition: text-decoration-color 500ms ease;
+}
+
+.menu a:hover {
+    text-decoration-color: black;
+}
 
 .form {
     margin: 0 auto;
@@ -76,7 +112,8 @@
 .form button {
     background-color: #f8f6f6;
     margin-top: 35px;
-    width: 480px;
+    width: 100%;
+    max-width: 480px;
      height: 52px;
     font-family: "Garet";
     font-size: 20px;
@@ -118,4 +155,35 @@ display: flex;
 align-items: center;
 margin: auto;
 margin-top: 40px;
+}
+
+
+.menu-footer {
+    font-size: 25px;
+    font-family: "Garet";
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 80px;
+    align-items: center;
+}
+
+
+.icone-redes {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 4%;
+}
+
+.menu-footer a {
+    color: black;
+    text-decoration: underline transparent;
+    text-decoration-thickness: 1px;
+    transition: text-decoration 500ms ease;
+}
+
+.menu-footer a:hover {
+    text-decoration: underline black;
 }

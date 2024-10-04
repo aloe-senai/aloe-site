@@ -310,7 +310,7 @@
   
   
   
-  
+/*   
   
   a {
     
@@ -377,7 +377,7 @@
     background-color: #14181A;
     border: none;
   }
-  
+   */
   
   
   
@@ -608,7 +608,7 @@
     left: 668px;
   }
   
-  
+/*   
   .overlap-4 button {
     background-color: #f1f1f1;
     
@@ -679,7 +679,7 @@
     }
     
   }
-  
+   */
   
   .home .text-wrapper-18 {
     position: absolute;
@@ -854,4 +854,163 @@
     top: 41px;
     left: 39px;
   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  @font-face {
+    font-family: "Garet";
+    src: url("Fontes/Garet-Book.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "DMSerif-Text";
+    src: url("Fontes/DMSerifText-Regular.ttf") format("truetype");
+}
+
+
+
+* {
+    margin: 0;
+    padding: 5px;
+}
+
+.container-grid {
+    width: 100%;
+    max-width: 1500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.menu {
+    
+    display: flex;
+    gap: 225px;
+    
+}
+
+
+
+
+
+
+.menu a {
+    font-size: 25px;
+    font-family: "Garet";
+    color: black;
+    text-decoration: underline transparent;
+    text-decoration-thickness: 1px;
+    transition: text-decoration-color 500ms ease;
+}
+
+.menu a:hover {
+    text-decoration-color: black;
+}
+
+/* .conteudo-banner {
+    height: calc(100vh - 280px);
+    display: flex;
+    align-items: center;
+}
+
+.conteudo-banner p {
+    color: black;
+    text-align: center;
+    margin-top: 10px;
+    font-family: "Garet";
+    font-size: 32px;
+} */
+
+
+
+
+
+
+
+
+@font-face {
+    font-family: "Garet";
+    src: url("Fontes/Garet-Book.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "DMSerifText";
+    src: url("Fontes/DMSerifText-Regular.ttf") format("truetype");
+}
+
+* {
+    margin: 0;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.container-grid {
+    width: 100%;
+    max-width: 1500px;
+}
+
+.menu {
+    font-size: 25px;
+    font-family: "Garet";
+    display: flex;
+    gap: 145px;
+}
+
+.icone-redes {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 4%;
+}
+
+.menu a {
+    color: black;
+    text-decoration: underline transparent;
+    text-decoration-thickness: 1px;
+    transition: text-decoration 500ms ease;
+}
+
+.menu a:hover {
+    text-decoration: underline black;
+}
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
   
