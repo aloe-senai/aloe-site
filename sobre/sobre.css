@@ -1,24 +1,3 @@
-@font-face{
-    font-family:"Garet", "DMSerif-Text";
-    src: url(Fontes/DMSerifText-Regular.ttf),url(Fontes/Garet-Book.otf);
-    
-    }
-    
- 
-
-    
-/* Reset CSS */
-* {
-
-    margin: 0 auto;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-:root {
-    
-}
-
 @font-face {
     font-family: "Garet";
     src: url("Fontes/Garet-Book.otf") format("opentype");
@@ -29,11 +8,22 @@
     src: url("Fontes/DMSerifText-Regular.ttf") format("truetype");
 }
 
-
-
+/* Reset CSS */
 * {
     margin: 0;
-    padding: 5px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --fonte-garet: "Garet", sans-serif;
+    --fonte-dmserif: "DMSerif-Text", serif;
+    --cor-preto: black;
+    --cor-branco: white;
+}
+
+body {
+    font-family: var(--fonte-garet);
 }
 
 .container-grid {
@@ -42,203 +32,123 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 20px;
 }
-
 
 .menu {
-    
     display: flex;
     gap: 225px;
-    
 }
-
-
-
-
-
 
 .menu a {
     font-size: 25px;
-    font-family: "Garet";
-    color: black;
+    font-family: var(--fonte-garet);
+    color: var(--cor-preto);
     text-decoration: underline transparent;
     text-decoration-thickness: 1px;
     transition: text-decoration-color 500ms ease;
 }
 
 .menu a:hover {
-    text-decoration-color: black;
+    text-decoration-color: var(--cor-preto);
 }
-
-.conteudo-banner {
-    height: calc(100vh - 280px);
-    display: flex;
-    align-items: center;
-}
-
-.conteudo-banner p {
-    color: black;
-    text-align: center;
-    margin-top: 10px;
-    font-family: "Garet";
-    font-size: 32px;
-}
-
 
 .banner {
-    /* vh é a porcentagem da ALTURA da tela */
-    /* vw é a porcentagem da LARGURA da tela */
     height: 100vh;
-
+    background-image: url("img/Camada_1 (2).jpg");
     background-repeat: no-repeat;
-
+    background-size: cover;
     position: relative;
-
     z-index: -1;
-
-    background-image: url("img/Camada_1\ \(2\).jpg");
-
-   
+    text-align: center;
+    font-family: var(--fonte-garet);
+    color: var(--cor-preto);
 }
 
-    .banner{
-        text-align: center;
-        font-family:"garet" ;
-        color: black;
-    } 
+.banner2 {
+    height: 100vh;
+    margin-top: 150px;
+    background-image: url("img/Free_Aromatherpay_Line_Mockup_5 3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: -1;
+    text-align: center;
+    font-family: var(--fonte-garet);
+    color: var(--cor-preto);
+}
 
-
-
-
-.container-grid-banner{
+.container-grid-banner {
     margin-top: 300px;
     font-size: 100px;
 }
 
-#sobrealoe h2{
-   
-    margin-top: 250px;
+#sobrealoe, #missaoaloe, #visaoaloe, #valoresaloe {
     text-align: center;
     padding: 20px 25%;
-    font-size:50px;
-    font-family:"garet";
-    color: black;
-    text-transform: uppercase;
+    color: var(--cor-preto);
 }
 
-#sobrealoe p{
-
-margin-top: 60px;
-text-align: center;
-font-family: "garet";
-font-size: 20px;
-color: black;
-
-padding: 20px 25%;
-
-display: flex;
-justify-content: center;
-
-
-
-}
-
-
-
-#missaoaloe h2 {
-    margin-top: 500px;
-    text-align: center;
-    padding: 20px 25%;
-    font-size:40px;
-    font-family:"garet";
-    color: black;
-    text-transform: uppercase;
-}
-
-
-#missaoaloe p{
-text-align: center;
-font-family: "garet";
-font-size: 20px;
-color: black;
-
-padding: 20px 25%;
-
-display: flex;
-justify-content: center;
-}
-
-#visaoaloe h2{
+#sobrealoe h2, #missaoaloe h2, #visaoaloe h2, #valoresaloe h2 {
     margin-top: 80px;
-    text-align: center;
-    padding: 20px 25%;
-    font-size:40px;
-    font-family:"garet";
-    color: black;
+    font-size: 40px;
+    font-family: var(--fonte-garet);
     text-transform: uppercase;
 }
 
+#sobrealoe h2 {
+    margin-top: 250px;
+    font-size: 50px;
+}
 
-#visaoaloe p{
-    text-align: center;
-    font-family: "garet";
+#sobrealoe p, #missaoaloe p, #visaoaloe p, #valoresaloe p {
+    margin-top: 20px;
+    font-family: var(--fonte-garet);
     font-size: 20px;
-    color: black;
-    
-    padding: 20px 25%;
-    
     display: flex;
     justify-content: center;
+    line-height: 1.5;
 }
 
-
-#valoresaloe h2{
-    margin-top: 80px;
-    text-align: center;
-    padding: 20px 25%;
-    font-size:40px;
-    font-family:"garet";
+footer {
+    background-color: #f1f1f1;
+    padding: 40px 0;
+    font-family: "Garet";
     color: black;
-    text-transform: uppercase;
+}
+
+footer .container-grid {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+footer .menu {
+    font-size: 18px;
+    gap: 90px;
+    flex-direction: row;
+    align-items: center;
+}
+
+footer .menu a {
+    color: black;
+    text-decoration: none;
+        text-decoration: underline transparent;
+        text-decoration-thickness: 2px;
+        transition: text-decoration 800ms ease;
+    
 }
 
 
-
-#valoresaloe p{
-text-align: center;
-font-family: "garet";
-font-size: 20px;
-color: black;
-
-padding: 20px 25%;
-
-display: flex;
-justify-content: center;
+.icone-redes {
+    display: flex;
+    gap: 200px;
+    justify-content: center;
+    margin-top: 2%;
 }
 
-.banner2 {
-    /* vh é a porcentagem da ALTURA da tela */
-    /* vw é a porcentagem da LARGURA da tela */
-    height: 100vh;
-
-    background-repeat: no-repeat;
-
-    position: relative;
-
-    z-index: -1;
-
-    background-image: url("img/Free_Aromatherpay_Line_Mockup_5\ 3.jpg");
-
-   
+.icone-redes img {
+    width: 108px; 
+    height: 108px;
+    cursor: pointer;
 }
-
-    .banner2{
-        margin-top: 150px;
-        text-align: center;
-        font-family:"garet" ;
-        color: black;
-    } 
-
-
-
-   

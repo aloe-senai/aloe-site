@@ -249,6 +249,49 @@ p {
     text-align: center;
 }
 
+
+footer {
+    background-color: #f1f1f1;
+    padding: 40px 0;
+    font-family: "Garet";
+    color: black;
+}
+
+footer .container-grid {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+footer .menu {
+    font-size: 18px;
+    gap: 90px;
+    flex-direction: row;
+    align-items: center;
+}
+
+footer .menu a {
+    color: black;
+    text-decoration: none;
+        text-decoration: underline transparent;
+        text-decoration-thickness: 2px;
+        transition: text-decoration 800ms ease;
+    
+}
+
+
+.icone-redes {
+    display: flex;
+    gap: 200px;
+    justify-content: center;
+    margin-top: 2%;
+}
+
+.icone-redes img {
+    width: 108px; 
+    height: 108px;
+    cursor: pointer;
+}
 .p-discount {
     position: absolute;
     left: 30px;
